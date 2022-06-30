@@ -31,7 +31,7 @@ public class ReviewRestController {
 		return reviewBO.getReview(id);
 	}
 	
-	//하나의 객체를 통으로 보내는 예제
+	// 하나의 객체를 통으로 보내는 예제
 	// http://localhost/lesson03/ex02/1
 	@RequestMapping("/lesson03/ex02/1")
 	public String ex02() {

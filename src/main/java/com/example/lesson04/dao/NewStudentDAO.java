@@ -8,5 +8,8 @@ import com.example.lesson04.model.NewStudent;
 @Repository
 public interface NewStudentDAO {
 	
-	public NewStudent insertStudent(NewStudent newStudent);
+	public void insertStudent(NewStudent newStudent);
+
+	public NewStudent selectStudentById(int id);
+	
 }

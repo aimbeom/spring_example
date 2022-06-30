@@ -14,7 +14,6 @@
 <body>
 	<div class="container">
 		<h1>학생 정보 추가</h1>
-		
 		<form method="post" action="/lesson04/add_student">
 			<div class="form-group">
 				<label for="name">이름</label>
@@ -30,7 +29,7 @@
 			</div>
 			<div class="form-group">
 				<label for="dreamJob">장래희망</label>
-				<input type="text" id="dreamJob" name="dreamjob" class="form-control col-5" rows="10"></input>
+				<input type="text" id="dreamJob" name="dreamJob" class="form-control col-5" rows="10"></input>
 			</div>
 			
 			<input type="submit" class="btn btn-success" value="회원가입">			
