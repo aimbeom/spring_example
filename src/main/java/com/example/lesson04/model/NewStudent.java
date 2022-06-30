@@ -10,6 +10,7 @@ public class NewStudent {
 	private String dreamJob;
 	private Date createdAt;
 	private Date updatedAt;
+	
 	public int getId() {
 		return id;
 	}

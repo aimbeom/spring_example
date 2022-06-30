@@ -22,7 +22,7 @@
 			</div>
 			<div class="form-group">
 				<label for="phoneNumber">휴대폰번호</label>
-				<input type="text" id="phoneNumber" name="yyyymmdd" class="form-control col-3" placeholder="예) 19961116">
+				<input type="text" id="phoneNumber" name="phoneNumber" class="form-control col-3" placeholder="예) 19961116">
 			</div>
 			<div class="form-group">
 				<label for="email">email</label>

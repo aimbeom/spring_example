@@ -6,13 +6,13 @@
  	<select id="selectReview" resultType="com.example.lesson03.model.Review">
  		SELECT
  			`id`
-			,`storeName`
-			,`menu`
-			,`userName`
-			,`point`
-			,`review`
-			`createdAt`
-			`updatedAt`
+			, `storeName`
+			, `menu`
+			, `userName`
+			, `point`
+			, `review`
+			, `createdAt`
+			, `updatedAt`
  		FROM
  			`review`
  		WHERE
