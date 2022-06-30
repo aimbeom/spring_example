@@ -34,7 +34,6 @@ public class NewUserController {
 
 	// http://localhost/lesson04/add_user
 	// @RequestMapping(path = "/add_user", method = RequestMethod.POST)
-	// @ResponseBody가 없기에 html로 반환
 	// post방식일때 jsp의 name값을 받아온다
 	// 필수와 비필수를 확인하는 방법 : db와 맞춰준다- db에 표시된 값이 null=NO 이면 필수, null=YES 이면 비필수
 	@PostMapping("/add_user")
@@ -74,6 +73,5 @@ public class NewUserController {
 		
 		// reponse
 		return "lesson04/lastUserView";
-		
 	}
 }
