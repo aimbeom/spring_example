@@ -44,7 +44,7 @@ public class Lesson05Controller {
 			user = new HashMap<>();
 			user.put("name", "김유빈");
 			user.put("height", "165");
-			user.put("weight", "53");
+			user.put("weight", "52");
 			users.add(user);
 			
 			model.addAttribute("fruits", fruits);
