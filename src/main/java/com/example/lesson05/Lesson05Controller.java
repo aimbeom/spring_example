@@ -59,4 +59,11 @@ public class Lesson05Controller {
 			model.addAttribute("today", today);
 			return "lesson05/ex03";
 		}
+		
+	// http://localhost/lesson05/ex04
+		@RequestMapping("/lesson05/ex04")
+		public String ex04() {
+			
+			return "lesson05/ex04";
+		}
 }
