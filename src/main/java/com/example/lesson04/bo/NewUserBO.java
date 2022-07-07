@@ -25,4 +25,8 @@ public class NewUserBO {
 	public NewUser getLastNewUser() {
 		return newUserDAO.selectLastNewUser();
 	}
+	
+	public boolean existNewUserByName(String name) {
+		return newUserDAO.existNewUserByName(name);
+	}
 }
