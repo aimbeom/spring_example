@@ -22,7 +22,7 @@ public interface ReviewDAO {
 			@Param("menu") String menu,
 			@Param("userName") String userName,
 			@Param("point") double point,
-			@Param("reivew") String reivew);
+			@Param("review") String review);
 	
 	public int updateReviewById(
 			@Param("id") int id,

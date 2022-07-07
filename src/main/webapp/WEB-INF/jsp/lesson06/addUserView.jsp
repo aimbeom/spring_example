@@ -86,8 +86,8 @@
 				//alert(name);
 				if (name == "") {
 					alert("이름을 입력하세요");
-					return; //submit을 안하고 끝내버리겠다는 의미
-				}
+					return; //submit을 안하고 끝내버리겠다는 의미			 
+				}													
 
 				let yyyymmdd = $('#yyyymmdd').val().trim();
 				if (yyyymmdd == "") {
@@ -127,6 +127,7 @@
 				}); 
 			});
 		});
+		
 	</script>
 
 </body>

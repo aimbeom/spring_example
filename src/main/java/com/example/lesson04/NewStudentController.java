@@ -41,7 +41,6 @@ public class NewStudentController {
 			@ModelAttribute NewStudent newStudent, //태그에서 name속성에 일치하는 필드에 값이 들어간다.
 			Model model
 			) { 
-		
 		// db insert - 과제
 		newStudentBO.addStudent(newStudent);
 			

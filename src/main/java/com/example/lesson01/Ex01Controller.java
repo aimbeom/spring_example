@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class Ex01Controller {
 	
-	// http://localhost:8080/lessson01/ex01/1
+	// http://localhost/lessson01/ex01/1
 	// path는 /로 시작해야한다
 	// 이 주소로 요청을 받는다
 	@RequestMapping("/lessson01/ex01/1")
@@ -23,7 +23,7 @@ public class Ex01Controller {
 		return text;
 	}
 	
-	// http://localhost:8080/lessson01/ex01/2
+	// http://localhost/lessson01/ex01/2
 	@RequestMapping("/lessson01/ex01/2")
 	
 	public @ResponseBody Map<String, Object> ex01_2(){
